@@ -6,7 +6,8 @@
 	
 	```javascript
 	
-		#!/usr/bin/env node
+		#! /usr/bin/env node
+		// #!是对脚本的解释器程序路径
 		// 脚本用env启动的原因，是因为脚本解释器在linux中可能被安装于不同的目录，
 		// env可以在系统的PATH目录中查找。同时，env还规定一些系统环境变量。
 		
